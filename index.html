@@ -90,7 +90,9 @@
       
 		
 		<div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h1>Welcome to <span style="color:#ED2319">Pro</span> <span style="color:#ADB2AC">Hidrate</span></h1>
+        <h1>Welcome to<br> 
+          <span style="color:#ED2319">Pro</span> <span style="color:#ADB2AC">Hidrate</span><img                src="assets/img/h20.png" class="img-fluid" alt="">
+		</h1>
         <h3  style="color:#373E44">Next level Hidration</h3>
       </div>
     </section>
@@ -105,10 +107,18 @@
             <p>Kenny King and Roy White have been friends for over 40 years and as business partners, they’ve created a product that represents their friendship and brotherhood….pure, healthy and strong.</p>
           </div>
           <div class="row">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100"> <img
-
-                src="assets/img/edited/DSC01634_(1).jpg" class="img-fluid" alt=""> </div>
-            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100"> 
+				
+				<div class="w3-content w3-section">
+				  <img class="mySlides" src="assets/img/slideshow/slideshow_(1).jpg" style="width:100%">
+				  <img class="mySlides" src="assets/img/slideshow/slideshow_(2).jpg" style="width:100%">
+				  <img class="mySlides" src="assets/img/slideshow/slideshow_(3).jpg" style="width:100%">
+				  <img class="mySlides" src="assets/img/slideshow/slideshow_(4).jpg" style="width:100%">
+				  <img class="mySlides" src="assets/img/slideshow/slideshow_(5).jpg" style="width:100%">
+				</div>
+				
+			</div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
 
               data-aos="fade-up" data-aos-delay="100">
               <p>These days, almost all water starts with contaminants.  That’s why Kenny and Roy wanted to use the reverse osmosis process of removing all impurities to represent their childhood and up bringing.  They recognized some of the impurities they faced growing up in the neighborhood they was raised in.</p>
@@ -291,8 +301,7 @@ It is the strong relationship these two men have forged with one another that in
           <div class="section-title">
             <h2>Team</h2>
             <h3>Our Hardworking <span>Team</span></h3>
-            <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.</p>
+            <p>[Placeholder Text]</p>
           </div>
           <div class="row">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
@@ -310,30 +319,12 @@ It is the strong relationship these two men have forged with one another that in
                 </div>
                 <div class="member-info">
                   <h4>Kenny King</h4>
-                  <span>Quality Assurance&nbsp;</span> </div>
+                  <span>Co-Owner</span> </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
 
               data-aos-delay="200">
-              <div class="member">
-                <div class="member-img"> <img src="assets/img/team/team-2.jpg"
-
-                    class="img-fluid" alt="">
-                  <div class="social"> <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i
-
-                        class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Kenny King</h4>
-                  <span>Product Manager</span> </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-
-              data-aos-delay="300">
               <div class="member">
                 <div class="member-img"> <img src="assets/img/team/team-3.jpg"
 
@@ -345,29 +336,11 @@ It is the strong relationship these two men have forged with one another that in
                   </div>
                 </div>
                 <div class="member-info">
-                  <h4>Roy</h4>
-                  <span>CTO</span> </div>
+                  <h4>Roy White</h4>
+                  <span>Co-Owner</span> </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up"
-
-              data-aos-delay="400">
-              <div class="member">
-                <div class="member-img"> <img src="assets/img/team/team-4.jpg"
-
-                    class="img-fluid" alt="">
-                  <div class="social"> <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a> <a href=""><i
-
-                        class="bi bi-instagram"></i></a> <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>Roy&nbsp;</h4>
-                  <span>Accountant</span> </div>
-              </div>
-            </div>
-          </div>
+			</div>
         </div>
       </section>
       <!-- End Team Section -->
@@ -630,12 +603,30 @@ value="Subscribe" type="submit"> </form>
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> </div>
-      </div>
-    </footer>
+          <div>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> </div>
+      
+   
     <!-- End Footer --> 
     <div id="preloader"></div>
     <!-- Vendor JS Files -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
