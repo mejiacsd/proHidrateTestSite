@@ -22,12 +22,12 @@
 */
 
 
-@font-face {
+font-face {
     font-family: 'Visby Round CF';
     src: local('Visby Round CF'), local('Visby-Round-CF'),
-        url('VisbyRoundCF-Heavy.woff2') format('woff2'),
-        url('VisbyRoundCF-Heavy.woff') format('woff'),
-        url('VisbyRoundCF-Heavy.ttf') format('truetype');
+        url('/assets/font/VisbyRoundCF-Heavy.woff2') format('woff2'),
+        url('/assets/font/VisbyRoundCF-Heavy.woff') format('woff'),
+        url('/assets/font/VisbyRoundCF-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
   }

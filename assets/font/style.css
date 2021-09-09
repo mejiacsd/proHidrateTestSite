@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Visby Round CF';
-    src: local('Visby Round CF Heavy'), local('Visby-Round-CF-Heavy'),
-        url('../assets/font/VisbyRoundCF-Heavy.woff2') format('woff2'),
-        url('../assets/font/VisbyRoundCF-Heavy.woff') format('woff'),
-        url('../assets/font/VisbyRoundCF-Heavy.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-  }
