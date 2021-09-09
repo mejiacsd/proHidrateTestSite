@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Visby Round CF';
-    src: local('Visby Round CF Heavy'), local('Visby-Round-CF-Heavy'),
+    src: local('Visby Round CF'), local('Visby-Round-CF'),
         url('VisbyRoundCF-Heavy.woff2') format('woff2'),
         url('VisbyRoundCF-Heavy.woff') format('woff'),
         url('VisbyRoundCF-Heavy.ttf') format('truetype');
