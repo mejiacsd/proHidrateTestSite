@@ -18,6 +18,10 @@ body {
   color: #000000;
 }
 
+p {
+	color: white
+}
+
 a {
   color: #106eea;
   text-decoration: none;
@@ -284,7 +288,7 @@ p2 {font-family: 'M PLUS Rounded 1c', sans-serif;}
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -420,7 +424,7 @@ p2 {font-family: 'M PLUS Rounded 1c', sans-serif;}
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -625,6 +629,7 @@ NAVBAR ADD
     width: 0;
     height: 0;
     border-left: 0;	
+
     border-bottom: 5px solid transparent;
     border-top: 5px solid transparent;
     border-right: 8px solid #444;
@@ -890,7 +895,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -974,7 +979,7 @@ section {
 }
 
 .about .content ul i {
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
   font-size: 24px;
   padding: 20px;
@@ -1443,7 +1448,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
 
@@ -1519,7 +1524,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #fff;
+  background: #000000;
   text-align: center;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
