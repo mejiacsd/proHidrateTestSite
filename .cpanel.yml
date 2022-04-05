@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/w88catsysct0/proHidrate-live/
-    - /bin/cp -R proHidrateTestSite $DEPLOYPATH
